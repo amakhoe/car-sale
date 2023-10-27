@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Designer;
+    src: url(../assets/Designer.otf)
+  }
+
+  .clk {
+    font-family: Designer;
+  }

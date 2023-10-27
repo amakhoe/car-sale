@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Designer;
+  src: url(../src/assets/Designer.otf)
+}
+@font-face {
+  font-family: Vogue;
+  src: url(../src/assets/Vogue.ttf)
+}
+@font-face {
+  font-family: Roboto;
+  src: url(../src/assets/Roboto-Medium.ttf)
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../src/assets/Roboto-Regular.ttf)
+}
+
+body{
+  font-family: 'Roboto-Regular';
+  
+}
+
+@layer base{
+  button{
+    @apply border border-black rounded-xl px-5 py-2;
+  }
+}
